@@ -1,2 +1,6 @@
 dev/bsnes-plus
 dev/pvsneslib
+firmware/drivers/CMSIS_5
+firmware/drivers/stm32f4xx_hal_driver
+firmware/drivers/STM32CubeF4
+.vscode
