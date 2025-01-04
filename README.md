@@ -8,6 +8,13 @@ The STM2SNES Cartridge is a homebrew cartridge designed and developed with a STM
 - **No FPGA Required:** Simplified design, making it more accessible for homebrew.
 - **Full Pin Usage:** Unlike other solutions, this cartridge makes use of all 62 pins, providing maximum compatibility and functionality, and is specifically designed to support homebrew and extend hardware functionalities.
 
+## Project structure
+There are four folders:ç
+- dev (for local testing)
+- firmware (cartridge manager, all related to stm32, pic, sram, microsd...)
+- hardware (hardware documentation)
+- menu (main user GUI, the ROM)
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
