@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdint.h>
 #include "gpio.h"
 #include "sram.h"
@@ -9,8 +10,9 @@
 // Maximum size you plan to support (e.g. 512KB for SRAM)
 #define MAX_ROM_SIZE (512 * 1024)
 
-void HAL_Init(void) {
-    // TODO
+int HAL_Init(void) {
+    // TODO: initialize the HAL
+    return -1;
 }
 
 void HAL_Delay(uint32_t ms) { 
